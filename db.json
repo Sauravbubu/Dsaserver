@@ -3706,7 +3706,6 @@
 		]
 	}
 ],
-"users": {
-"abc@gmail.com":"hsdasdyadw"
-}
+"users": [
+{"abc@gmail.com":""}]
 }
