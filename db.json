@@ -3707,5 +3707,208 @@
 	}
 ],
 "users": [
-{"abc@gmail.com":""}]
+{"abc@gmail.com":""}],
+"javascript":[
+	{
+	  "title": "what is event bubbling",
+	"link":"--",
+	"answer":"__"
+	},
+	{
+	  "title": "what is event delegation",
+	"link":"--",
+	"answer":"__"
+	},
+	{
+	  "title": "What event capturing",
+	"link":"--",
+	"answer":"__"
+	},
+	{
+	  "title": "what is event loop",
+	"link":"--",
+	"answer":"__"
+	},
+	{
+	  "title": "what is async and defer",
+	"link":"--",
+	"answer":"__"
+	},
+	{
+	  "title": "Explain call(), apply() and, bind() methods.",
+	"link":"--",
+	"answer":"__"
+	},
+	{
+	  "title": "What is currying in JavaScript?",
+	"link":"--",
+	"answer":"__"
+	},
+	{
+	  "title": "Promises, async/await",
+	"link":"--",
+	"answer":"__"
+	},
+	{
+	  "title": "Concept of scope and global variable",
+	"link":"--",
+	"answer":"__"
+	},
+	{
+	  "title": "Closure (closure vs lexical scope)",
+	"link":"--",
+	"answer":"__"
+	},
+	{
+	  "title": "Explain Prototype in javascript.",
+	"link":"--",
+	"answer":"__"
+	},
+	{
+	  "title": "What is memoization?",
+	"link":"--",
+	"answer":"__"
+	},
+	{
+	  "title": "Is JavaScript a pass-by-reference or pass-by-value language?",
+	"link":"--",
+	"answer":"__"
+	},
+	{
+	  "title": "What tools and techniques do you use debugging JavaScript code?",
+	"link":"--",
+	"answer":"__"
+	},
+	{
+	  "title": "What tools and techniques do you use debugging JavaScript code?",
+	"link":"--",
+	"answer":"__"
+	},
+   
+	{
+	  "title": "debouncing vs throttling",
+	"link":"--",
+	"answer":"__"
+	},
+	{
+	  "title": "What are different array methods, explain in short,",
+	"link":"--",
+	"answer":"__"
+	},
+	{
+	  "title": "Explain how this works in JavaScript.",
+	"link":"--",
+	"answer":"__"
+	},
+	{
+	  "title": "Can you give an example of one of the ways that working with this has changed in ES6?",
+	"link":"--",
+	"answer":"__"
+	},
+	{
+	  "title": "What is Callback in javascript, Why do we use callbacks?",
+	"link":"--",
+	"answer":"__"
+	},
+	{
+	  "title": "what is callback hell how can we prevent it",
+	"link":"--",
+	"answer":"__"
+	},
+	{
+	  "title": "What do you mean by Self Invoking Functions?",
+	"link":"--",
+	"answer":"__"
+	},
+	{
+	  "title": "What are new Features of es6",
+	"link":"--",
+	"answer":"__"
+	},
+	{
+	  "title": "how does an arrow function is different from normal functions",
+	"link":"--",
+	"answer":"__"
+	},
+	{
+	  "title": "What is Hoisting in javascript ,does let and const hoist ,with reason",
+	"link":"--",
+	"answer":"__"
+	},
+	{
+	  "title": "What's the difference between an \"attribute\" and a \"property\"?",
+	"link":"--",
+	"answer":"__"
+	},
+	{
+	  "title": "What is the difference between == and ===",
+	"link":"--",
+	"answer":"__"
+	},
+	{
+	  "title": "What is the rest parameter and spread operator?",
+	"link":"--",
+	"answer":"__"
+	},
+	{
+	  "title": "What are classes in javascript?",
+	"link":"--",
+	"answer":"__"
+	},
+	{
+	  "title": "What are generator functions?",
+	"link":"--",
+	"answer":"__"
+	},
+	{
+	  "title": "Why is it called a Ternary operator, what does the word \"Ternary\" indicate?",
+	"link":"--",
+	"answer":"__"
+	},
+	{
+	  "title": "Explain WeakMap in javascript.",
+	"link":"--",
+	"answer":"__"
+	},
+	{
+	  "title": "What is the definition of a higher-order function?",
+	"link":"--",
+	"answer":"__"
+	},
+	{
+	  "title": "Array and object destructuring?",
+	"link":"--",
+	"answer":"__"
+	},
+	{
+	  "title": "What is a Temporal Dead Zone?",
+	"link":"--",
+	"answer":"__"
+	},
+	{
+	  "title": "In JavaScript, how do you turn an Object into an Array []?",
+	"link":"--",
+	"answer":"__"
+	},
+	{
+	  "title": "What do you mean by JavaScript Design Patterns?",
+	"link":"--",
+	"answer":"__"
+	},
+	{
+	  "title": "What do you understand about Cookies in JavaScript?",
+	"link":"--",
+	"answer":"__"
+	},
+	{
+	  "title": "What are Imports and Exports in JavaScript?",
+	"link":"--",
+	"answer":"__"
+	},
+	{
+	  "title": "How can you share code between files?",
+	"link":"--",
+	"answer":"__"
+	}
+  ]
 }
