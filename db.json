@@ -3828,77 +3828,77 @@
 		},
 		{
 			"title": "What's the difference between an \"attribute\" and a \"property\"?",
-			"link": "--",
+			"link": "https://www.youtube.com/embed/HpQ-YeRqpJs",
 			"answer": "__"
 		},
 		{
 			"title": "What is the difference between == and ===",
-			"link": "--",
+			"link": "https://www.youtube.com/embed/C5ZVC4HHgIg",
 			"answer": "__"
 		},
 		{
 			"title": "What is the rest parameter and spread operator?",
-			"link": "--",
+			"link": "https://www.youtube.com/embed/iLx4ma8ZqvQ",
 			"answer": "__"
 		},
 		{
 			"title": "What are classes in javascript?",
-			"link": "--",
+			"link": "https://www.youtube.com/embed/YBBg6bp9ojA",
 			"answer": "__"
 		},
 		{
 			"title": "What are generator functions?",
-			"link": "--",
+			"link": "https://www.youtube.com/embed/RN5FRD-yrz4",
 			"answer": "__"
 		},
 		{
 			"title": "Why is it called a Ternary operator, what does the word \"Ternary\" indicate?",
-			"link": "--",
+			"link": "https://www.youtube.com/embed/QzaWmh0A-gA",
 			"answer": "__"
 		},
 		{
 			"title": "Explain WeakMap in javascript.",
-			"link": "--",
+			"link": "https://www.youtube.com/embed/h01qi0TFf84",
 			"answer": "__"
 		},
 		{
 			"title": "What is the definition of a higher-order function?",
-			"link": "--",
+			"link": "https://www.youtube.com/embed/HkWxvB1RJq0",
 			"answer": "__"
 		},
 		{
 			"title": "Array and object destructuring?",
-			"link": "--",
+			"link": "https://www.youtube.com/embed/NIq3qLaHCIs",
 			"answer": "__"
 		},
 		{
 			"title": "What is a Temporal Dead Zone?",
-			"link": "--",
+			"link": "https://www.youtube.com/embed/BNC6slYCj50",
 			"answer": "__"
 		},
 		{
 			"title": "In JavaScript, how do you turn an Object into an Array []?",
-			"link": "--",
+			"link": "https://www.youtube.com/embed/A0g7sga28Zg",
 			"answer": "__"
 		},
 		{
 			"title": "What do you mean by JavaScript Design Patterns?",
-			"link": "--",
+			"link": "https://www.youtube.com/embed/u4KS61As2iU",
 			"answer": "__"
 		},
 		{
 			"title": "What do you understand about Cookies in JavaScript?",
-			"link": "--",
+			"link": "https://www.youtube.com/embed/GihQAC1I39Q",
 			"answer": "__"
 		},
 		{
 			"title": "What are Imports and Exports in JavaScript?",
-			"link": "--",
+			"link": "https://www.youtube.com/embed/cRHQNNcYf6s",
 			"answer": "__"
 		},
 		{
 			"title": "How can you share code between files?",
-			"link": "--",
+			"link": "https://www.youtube.com/embed/NSnckA3LyGw",
 			"answer": "__"
 		}
 	]
