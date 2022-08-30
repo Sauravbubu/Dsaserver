@@ -3724,57 +3724,57 @@
 		{
 			"title": "What event capturing",
 			"link": "https://www.youtube.com/embed/Q6HAJ6bz7bY",
-			"answer": "__"
+			"answer": "It is the opposite of event bubbling,Event capturing is one of two ways to do event propagation in the HTML DOM. In event capturing, an event propagates from the outermost element to the target element,where as in event bubbling where events propagate outwards from the target to the outer elements. Capturing happens before bubbling."
 		},
 		{
 			"title": "what is event loop",
 			"link": "https://www.youtube.com/embed/8zKuNo4ay8E",
-			"answer": "__"
+			"answer": "An event loop is something that pulls stuff out of the queue and places it onto the function execution stack whenever the function stack becomes empty ,Call stack holds all the synchronous function calls. Call stack will execute code in a last in first out approach. So last the most inner nested code will be executed first and then one level above that and so on. If the function call is asynchronous it will add a new call entry on WebAPIs and the API will add a new call to the callback queue after the asynchronous action is done."
 		},
 		{
 			"title": "what is async and defer",
 			"link": "https://www.youtube.com/embed/WlkHxjTrmqs",
-			"answer": "__"
+			"answer": "With HTML5, we get two new boolean attributes for the <script> tag: async and defer. Async allows execution of scripts asynchronously and defer allows execution only after the whole document has been parsed.These two attributes are a must for increasing speed and performance of websites. They allow the elimination of render-blocking JavaScript where the page would have to load and execute scripts before finishing to render the page"
 		},
 		{
 			"title": "Explain call(), apply() and, bind() methods.",
 			"link": "https://www.youtube.com/embed/75W8UPQ5l7k",
-			"answer": "__"
+			"answer": "call() Method: It calls the method, taking the owner object as argument. The keyword this refers to the ‘owner’ of the function or the object it belongs to. We can call a method which can be used on different objects. apply() Method: The apply() method is used to write methods, which can be used on different objects. It is different from the function call() because it takes arguments as an array. "
 		},
 		{
 			"title": "What is currying in JavaScript?",
 			"link": "https://www.youtube.com/embed/KbAW3R2RAGM",
-			"answer": "__"
+			"answer": "Currying is a process in functional programming in which we can transform a function with multiple arguments into a sequence of nesting functions. It returns a new function that expects the next argument inline."
 		},
 		{
 			"title": "Promises, async/await",
 			"link": "https://www.youtube.com/embed/xGBhmi4wwMI",
-			"answer": "__"
+			"answer": " Promise is an object representing intermediate state of operation which is guaranteed to complete its execution at some point in future. Async/Await is a syntactic sugar for promises, a wrapper making the code execute more synchronously .A “producing code” that does something and takes time. For instance, some code that loads the data over a network. That’s a “singer”.A “consuming code” that wants the result of the “producing code” once it’s ready. Many functions may need that result. These are the “fans”.A promise is a special JavaScript object that links the “producing code” and the “consuming code” together. In terms of our analogy: this is the “subscription list”. The “producing code” takes whatever time it needs to produce the promised result, and the “promise” makes that result available to all of the subscribed code when it’s ready."
 		},
 		{
 			"title": "Concept of scope and global variable",
 			"link": "https://www.youtube.com/embed/uH-tVP8MUs8",
-			"answer": "__"
+			"answer": "JavaScript has 3 types of scopeBlock scopeFunction scopeGlobal scope Variables declared with the var keyword can NOT have block scope.Variables declared inside a { } block can be accessed from outside the block.Variables declared within a JavaScript function, become LOCAL to the function.JavaScript has function scope: Each function creates a new scope.Variables defined inside a function are not accessible (visible) from outside the function.Variables declared with var, let and const are quite similar when declared inside a function."
 		},
 		{
 			"title": "Closure (closure vs lexical scope)",
 			"link": "https://www.youtube.com/embed/qikxEIxsXco",
-			"answer": "__"
+			"answer": "What is closure ?A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives you access to an outer function's scope from an inner function . What is lexical scope?Lexical scoping, also known as static scoping, is a convention used with many modern programming languages. It refers to setting the scope, or range of functionality, of a variable so that it may be called (referenced) from within the block of code in which it is defined."
 		},
 		{
 			"title": "Explain Prototype in javascript.",
 			"link": "https://www.youtube.com/embed/wstwjQ1yqWQ",
-			"answer": "__"
+			"answer": "Every object in JavaScript has a built-in property, which is called its prototype. The prototype is itself an object, so the prototype will have its own prototype, making what's called a prototype chain. The chain ends when we reach a prototype that has null for its own prototype."
 		},
 		{
 			"title": "What is memoization?",
 			"link": "https://www.youtube.com/embed/WbwP4w6TpCk",
-			"answer": "__"
+			"answer": "What is memoization in Javascript with example?Memoization: Memoization is a technique for speeding up applications by caching the results of expensive function calls and returning them when the same inputs are used again."
 		},
 		{
 			"title": "Is JavaScript a pass-by-reference or pass-by-value language?",
 			"link": "https://www.youtube.com/embed/8y9c4SumvcQ",
-			"answer": "__"
+			"answer": "The variable's data is always a reference for objects, hence it's always pass by value. As a result, if you supply an object and alter its members inside the method, the changes continue outside of it. It appears to be pass by reference in this case. However, if you modify the values of the object variable, the change will not last, demonstrating that it is indeed passed by value"
 		},
 		{
 			"title": "What tools and techniques do you use debugging JavaScript code?",
@@ -3784,122 +3784,122 @@
 		{
 			"title": "debouncing vs throttling",
 			"link": "https://www.youtube.com/embed/tJhA0DrH5co",
-			"answer": "__"
+			"answer": "Throttle: the original function will be called at most once per specified period.Debounce: the original function will be called after the caller stops calling the decorated function after a specified period. Search bar- Don't want to search every time user presses key? Want to search when user stopped typing for 1 sec. Use debounce 1 sec on key press.Shooting game- Pistol take 1 sec time between each shot but user click mouse multiple times. Use throttle on mouse click.Throttling 1 sec on search bar- If users types abcdefghij with every character in 0.6 sec. Then throttle will trigger at first a press. It will will ignore every press for next 1 sec i.e. bat .6 sec will be ignored. Then c at 1.2 sec will again trigger, which resets the time again. So d will be ignored and e will get triggered.Debouncing pistol for 1 sec- When user sees an enemy, he clicks mouse, but it will not shoot. He will click again several times in that sec but it will not shoot. He will see if it still has bullets, at that time (1 sec after last click) pistol will fire automatically."
 		},
 		{
 			"title": "What are different array methods, explain in short,",
 			"link": "https://www.youtube.com/embed/R8rmfD9Y5-c",
-			"answer": "__"
+			"answer": " JavaScript Array length Returns the number of elements in an array JavaScript Array reverse()Returns the array in reverse order JavaScript Array sort()Sorts the elements of an array in specific order JavaScript Array fill()Returns array by filling elements with given value Javascript Array join()Concatenates the array elements to a string Javascript Array toString()Returns the string representation of an array JavaScript Array pop()Removes and returns the last array element JavaScript Array shift()Removes and returns the first array element JavaScript Array push()Adds elements to end of array & returns its length  javaScript Array unshift()Adds elements to start of array and returns length JavaScript Array concat()Returns array by merging given value and/or arrays JavaScript Array splice()Returns an array by changing its elements in place JavaScript Array lastIndexOf()Returns the last index of occurrence of an element JavaScript Array indexOf()Returns the first index of occurrence of element JavaScript Array of() MethodCreates a new Array instance from given arguments JavaScript Array slice()Returns a shallow copy of a portion of an array JavaScript Array findIndex()Returns index of element that satisfies condition JavaScript Array find()Returns first element that satisfies a condition JavaScript Array includes()Checks if a value exists in an array Javascript Array reduceRight()Reduces array to single value from right to left Javascript Array reduce()Reduces array to single value from left to right Javascript Array isArray()Checks if the given value is a  JavaScript Array Javascript Array filter()Returns array by filtering elements on given test JavaScript Array map()Returns array by mapping elements using given func Javascript Array forEach()Executes the given function on array elements Javascript Array some()Tests if any element passes given test function Javascript Array every()Tests if all elements pass the given test function Javascript Array entries()Returns iterator containing key/value pair array JavaScript Array keys()Returns an iterator containing keys of array items JavaScript Array values()Returns iterator containing values of array items Javascript Array.from()Creates a new Array from array-like object Javascript Array constructorReturns the constructor function for the array Javascript Array copyWithin()Copies and overwrites elements within the array Javascript Array toLocaleString()Returns string representing the elements of array JavaScript Array flat()Flattens the nested array to given depth JavaScript Array flatMap()Returns new array by mapping and flattening array"
 		},
 		{
-			"title": "Explain how this keyword works in JavaScript.",
+			"title": "Explain how this keyword works in  JavaScript.",
 			"link": "https://www.youtube.com/embed/0wN-L9CG3y0",
-			"answer":""
+			"answer": "“This” keyword refers to an object that is executing the current piece of code. It references the object that is executing the current function. If the function being referenced is a regular function, “this” references the global object."
 		},
 		{
 			"title": "What is Callback in javascript, Why do we use callbacks?",
 			"link": "https://www.youtube.com/embed/btj35dh3_U8",
-			"answer": "__"
+			"answer": "A JavaScript callback is a function which is to be executed after another function has finished execution.A more formal definition would be - Any function that is passed as an argument to another function so that it can be executed in that other function is called as a callback function."
 		},
 		{
 			"title": "what is callback hell how can we prevent it",
 			"link": "https://www.youtube.com/embed/yEKtJGha3yM",
-			"answer": "__"
+			"answer": "Callback hell in Node.js is the situation in which we have complex nested callbacks. In this, each callback takes arguments that have been obtained as a result of previous callbacks. In this manner, The code structure looks like a pyramid, which leads to less readability and difficulty in maintenance. Also, if there is an error in one function, then all other functions get affected."
 		},
 		{
 			"title": "What do you mean by Self Invoking Functions?",
 			"link": "https://www.youtube.com/embed/3cbiZV4H22c",
-			"answer": "__"
+			"answer": "A self-invoking (also called self-executing) function is a nameless (anonymous) function that is invoked immediately after its definition. An anonymous function is enclosed inside a set of parentheses followed by another set of parentheses () , which does the execution. (function(){ console."
 		},
 		{
 			"title": "What are new Features of es6",
 			"link": "https://www.youtube.com/embed/48Qe0R_VGx4",
-			"answer": "__"
+			"answer": "The let keyword , The const keyword , Arrow Functions , For/of , Map Objects , Set Objects , Classes , Promises , Symbol , Default Parameters , Function Rest Parameter , String.includes() , String.startsWith() , String.endsWith() , Array.from() , Array keys() , Array find() , Array findIndex() , New Math Methods , New Number Properties , New Number Methods , New Global Methods , Object entries , JavaScript Modules"
 		},
 		{
 			"title": "how does an arrow function is different from normal functions",
 			"link": "https://www.youtube.com/embed/RwlL5pXPhfs",
-			"answer": "__"
+			"answer": "What is advantages of arrow functions over normal functions? There are two major benefits of using Arrow functions. One is that it's a shorter syntax and thus requires less code. The main benefit is that it removes the several pain points associated with the this operator."
 		},
 		{
 			"title": "What is Hoisting in javascript ,does let and const hoist ,with reason",
 			"link": "https://www.youtube.com/embed/Fnlnw8uY6jo",
-			"answer": "__"
+			"answer": "JavaScript Hoisting refers to the process whereby the interpreter appears to move the declaration of functions, variables or classes to the top of their scope, prior to execution of the code.Hoisting allows functions to be safely used in code before they are declared. Variable and class declarations are also hoisted, so they too can be referenced before they are declared. Note that doing so can lead to unexpected errors, and is not generally"
 		},
 		{
 			"title": "What's the difference between an \"attribute\" and a \"property\"?",
 			"link": "https://www.youtube.com/embed/HpQ-YeRqpJs",
-			"answer": "__"
+			"answer": ""
 		},
 		{
 			"title": "What is the difference between == and ===",
 			"link": "https://www.youtube.com/embed/C5ZVC4HHgIg",
-			"answer": "__"
+			"answer": "The ‘==’ operator tests for abstract equality i.e. it does the necessary type conversions before doing the equality comparison.But the ‘===’ operator tests for strict equality i.e it will not do the type conversion hence if the two values are not of the same type, when compared, it will return false."
 		},
 		{
 			"title": "What is the rest parameter and spread operator?",
 			"link": "https://www.youtube.com/embed/iLx4ma8ZqvQ",
-			"answer": "__"
+			"answer": "Rest Parameter [ …rest] It is a collection of all remaining elements (hence, the name rest, as in “the rest of the elements”) into an array. Spread Operator […spread] It’s the opposite to rest parameter , where rest parameter collects items into an array, the spread operator unpacks the collected elements into single elements."
 		},
 		{
 			"title": "What are classes in javascript?",
 			"link": "https://www.youtube.com/embed/YBBg6bp9ojA",
-			"answer": "__"
+			"answer": "Class methods are created with the same syntax as object methods. Use the keyword class to create a class. Always add a constructor() method. Then add any number of methods."
 		},
 		{
 			"title": "What are generator functions?",
 			"link": "https://www.youtube.com/embed/RN5FRD-yrz4",
-			"answer": "__"
+			"answer": "What is JavaScript generator function? A generator is a process that can be paused and resumed and can yield multiple values. A generator in JavaScript consists of a generator function, which returns an iterable Generator object"
 		},
 		{
 			"title": "Why is it called a Ternary operator, what does the word \"Ternary\" indicate?",
 			"link": "https://www.youtube.com/embed/QzaWmh0A-gA",
-			"answer": "__"
+			"answer": "What is a Ternary operator? A ternary operator evaluates a condition and executes a block of code based on the condition. Its syntax is: condition ? expression1 : expression2 The ternary operator evaluates the test condition. If the condition is true, expression1 is executed. If the condition is false, expression2 is executed."
 		},
 		{
 			"title": "Explain WeakMap in javascript.",
 			"link": "https://www.youtube.com/embed/h01qi0TFf84",
-			"answer": "__"
+			"answer": "A WeakMap is a collection of key/value pairs whose keys must be objects, with values of any arbitrary JavaScript type, and which does not create strong references to its keys. That is, an object's presence as a key in a WeakMap does not prevent the object from being garbage collected."
 		},
 		{
 			"title": "What is the definition of a higher-order function?",
 			"link": "https://www.youtube.com/embed/HkWxvB1RJq0",
-			"answer": "__"
+			"answer": "What is the definitions of higher-order functions . A higher order function is a function that either takes a function as an argument or returns a function. This type of function has implementations in many programming languages including Go, JavaScript , Python, etc and they tend to be a question used during interviews "
 		},
 		{
 			"title": "Array and object destructuring?",
 			"link": "https://www.youtube.com/embed/NIq3qLaHCIs",
-			"answer": "__"
+			"answer": " Object destructuring - const {var1,var2} = objectName  . Array destructuring const [variable1,variable2] =  arrayName ; Destructuring works by assigning the values of the elements of the array/object to multiple variables by using a single line of code, then you can access those values by using those new variables. Remember, there is no particular destructuring “symbol” or “operator”."
 		},
 		{
 			"title": "What is a Temporal Dead Zone?",
 			"link": "https://www.youtube.com/embed/BNC6slYCj50",
-			"answer": "__"
+			"answer": "The let and const variables are not accessible before they are initialized with some value, and the phase between the starting of the execution of block in which the let or const variable is declared till that variable is being initialized is called Temporal Dead Zone for the variable. And during this zone javascript will always through a reference error if anyone tries to access those variables. "
 		},
 		{
 			"title": "In JavaScript, how do you turn an Object into an Array []?",
 			"link": "https://www.youtube.com/embed/A0g7sga28Zg",
-			"answer": "__"
+			"answer": "1-const propertyNames = Object.keys(person);const propertyValues = Object.values(person); 2 -const entries = Object.entries(person); 3-using for loop and Array.push()"
 		},
 		{
 			"title": "What do you mean by JavaScript Design Patterns?",
 			"link": "https://www.youtube.com/embed/u4KS61As2iU",
-			"answer": "__"
+			"answer": "Design patterns are reusable solutions to commonly occurring problems in software design. They are proven solutions, easily reusable and expressive. They lower the size of your codebase, prevent future refactoring, and make your code easier to understand by other developers typs- Creational Design Patterns 2 -structeral Design Patterns 3 -Behavioral Design Patterns"
 		},
 		{
 			"title": "What do you understand about Cookies in JavaScript?",
 			"link": "https://www.youtube.com/embed/GihQAC1I39Q",
-			"answer": "__"
+			"answer": "What is a cookie in JavaScript? Cookies are data, stored in small text files, on your computer. When a web server has sent a web page to a browser, the connection is shut down, and the server forgets everything about the user."
 		},
 		{
 			"title": "What are Imports and Exports in JavaScript?",
 			"link": "https://www.youtube.com/embed/cRHQNNcYf6s",
-			"answer": "__"
+			"answer": "Import. You can import modules into a file in two ways, based on if they are named exports or default exports. Named exports are constructed using curly braces. Default exports are not."
 		},
 		{
 			"title": "How can you share code between files?",
 			"link": "https://www.youtube.com/embed/NSnckA3LyGw",
-			"answer": "__"
+			"answer": ""
 		}
 	]
 }
