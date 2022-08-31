@@ -3900,6 +3900,11 @@
 			"title": "How can you share code between files?",
 			"link": "https://www.youtube.com/embed/NSnckA3LyGw",
 			"answer": ""
+		},
+		{
+			"title": "Local Storage vs Session Storage?",
+			"link": "https://www.youtube.com/embed/f54I61Apmxs",
+			"answer": "sessionStorage is similar to localStorage ; the difference is that while data in localStorage doesn't expire, data in sessionStorage is cleared when the page session ends. Whenever a document is loaded in a particular tab in the browser, a unique page session gets created and assigned to that particular tab"
 		}
 	]
 }
