@@ -3772,6 +3772,16 @@
 			"answer": "What is memoization in Javascript with example?Memoization: Memoization is a technique for speeding up applications by caching the results of expensive function calls and returning them when the same inputs are used again."
 		},
 		{
+			"title": "What is a first class function",
+			"link": "https://www.youtube.com/embed/SHINoHxvTso",
+			"answer": "A programming language is said to have First-class functions when functions in that language are treated like any other variable. For example, in such a language, a function can be passed as an argument to other functions, can be returned by another function and can be assigned as a value to a variable"
+		},
+		{
+			"title": "What is pure function in JavaScript?",
+			"link": "",
+			"answer": "What is pure function in JavaScript? A Pure Function is a function (a block of code) that always returns the same result if the same arguments are passed. It does not depend on any state or data change during a program's execution. Rather, it only depends on its input arguments.."
+		},
+		{
 			"title": "Is JavaScript a pass-by-reference or pass-by-value language?",
 			"link": "https://www.youtube.com/embed/8y9c4SumvcQ",
 			"answer": "The variable's data is always a reference for objects, hence it's always pass by value. As a result, if you supply an object and alter its members inside the method, the changes continue outside of it. It appears to be pass by reference in this case. However, if you modify the values of the object variable, the change will not last, demonstrating that it is indeed passed by value"
