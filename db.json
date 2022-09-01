@@ -3840,6 +3840,10 @@
 			"title": "What's the difference between an \"attribute\" and a \"property\"?",
 			"link": "https://www.youtube.com/embed/HpQ-YeRqpJs",
 			"answer": ""
+		},{
+			"title": "Diffrent  Http Methods  ",
+			"link": "https://www.youtube.com/embed/IngegJwpMoQ",
+			"answer": "The primary or most commonly-used HTTP methods are POST, GET, PUT, PATCH, and DELETE. These methods correspond to create, read, update, and delete (or CRUD) operations, respectively."
 		},
 		{
 			"title": "What is the difference between == and ===",
