@@ -3840,7 +3840,8 @@
 			"title": "What's the difference between an \"attribute\" and a \"property\"?",
 			"link": "https://www.youtube.com/embed/HpQ-YeRqpJs",
 			"answer": ""
-		},{
+		},
+		{
 			"title": "Different  Http Methods  ",
 			"link": "https://www.youtube.com/embed/IngegJwpMoQ",
 			"answer": "The primary or most commonly-used HTTP methods are POST, GET, PUT, PATCH, and DELETE. These methods correspond to create, read, update, and delete (or CRUD) operations, respectively."
@@ -3919,6 +3920,108 @@
 			"title": "Local Storage vs Session Storage?",
 			"link": "https://www.youtube.com/embed/f54I61Apmxs",
 			"answer": "sessionStorage is similar to localStorage ; the difference is that while data in localStorage doesn't expire, data in sessionStorage is cleared when the page session ends. Whenever a document is loaded in a particular tab in the browser, a unique page session gets created and assigned to that particular tab"
+		}
+	],
+	"react": [
+		{
+			"title": "what is Virtual Dom",
+			"link": "https://www.youtube.com/embed/YnDI3xwFgxg",
+			"answer": "Virtual DOM is nothing but a strategy that React uses to optimize the performance of an application. It provides a mechanism that compares two render trees to know what exactly has changed and only updates what is necessary on the actual DOM"
+		},
+		{
+			"title": "What is the difference between props and state ",
+			"link": "https://www.youtube.com/embed/IYvD9oBCuJI",
+			"answer": "Props are used to pass data from one component to another. The state is a local data storage that is local to the component only and cannot be passed to other components. The this. setState property is used to update the state values in the component"
+		},
+		{
+			"title": "What is the difference between react.memo and react.useMemo? ",
+			"link": "https://www.youtube.com/embed/3cYtqrNUiVw",
+			"answer": "React.memo is a higher-order component (or HOC for short) which accepts a react component and an optional function that uses props to conditionally update the component using memoization, whereas useMemo is a react hook that will accept a function and a dependency array and then memoize the value returned from the function passed into it."
+		},
+		{
+			"title": "How you Optimize React app",
+			"link": "https://www.youtube.com/embed/YnDI3xwFgxg",
+			"answer": "Virtual DOM is nothing but a strategy that React uses to optimize the performance of an application. It provides a mechanism that compares two render trees to know what exactly has changed and only updates what is necessary on the actual DOM"
+		},
+		{
+			"title": "What are the dependencies in useEffect ",
+			"link": "https://www.youtube.com/embed/IYvD9oBCuJI",
+			"answer": "Props are used to pass data from one component to another. The state is a local data storage that is local to the component only and cannot be passed to other components. The this. setState property is used to update the state values in the component"
+		},
+		{
+			"title": "What are keys in React?",
+			"link": "https://www.youtube.com/embed/0sasRxl35_8",
+			"answer": "A key is a special string attribute that needs to be included when using lists of elements.Keys help react identify which elements were added, changed or removed. Keys should be given to array elements for providing a unique identity for each element."
+		},
+		{
+			"title": "What are the differences between controlled and uncontrolled components",
+			"link": "https://www.youtube.com/embed/rpdhFx9bnW8",
+			"answer": "In a controlled component, form data is handled by a React component. The alternative is uncontrolled components, where form data is handled by the DOM itself. To write an uncontrolled component, instead of writing an event handler for every state update, you can use a ref to get form values from the DOM."
+		},
+		{
+			"title": "State vs Props ,wahat are those ?",
+			"link": "https://www.youtube.com/embed/IYvD9oBCuJI",
+			"answer": "Props are read-only. State changes can be asynchronous. 2. Props are immutable. State is mutable.  3. Props allow you to pass data from one component to other components as an argument. State holds information about the components. 4. Props can be accessed by the child component. State cannot be accessed by child components. 5. Props are used to communicate between components. States can be used for rendering dynamic changes with the component."
+		},
+		{
+			"title": "What is prop drilling in React?",
+			"link": "https://www.youtube.com/embed/us4pQzWRznQ",
+			"answer": "Sometimes while developing React applications, there is a need to pass data from a component that is higher in the hierarchy to a component that is deeply nested. To pass data between such components, we pass props from a source component and keep passing the prop to the next component in the hierarchy till we reach the deeply nested component"
+		},
+		{
+			"title": "What is React Hooks?",
+			"link": "https://www.youtube.com/embed/WoUpht1zcG0",
+			"answer": "React Hooks are the built-in functions that permit developers for using the state and lifecycle methods within React components. These are newly added features made available in React 16.8 version. Each lifecycle of a component is having 3 phases which include mount, unmount, and update. Along with that, components have properties and states. Hooks will allow using these methods by developers for improving the reuse of code with higher flexibility navigating the component tree."
+		},
+		{
+			"title": "What is the use of useEffect React Hooks?",
+			"link": "https://www.youtube.com/embed/zJeyz5mIXGQ",
+			"answer": "The useEffect React Hook is used for performing the side effects in functional components. With the help of useEffect, you will inform React that your component requires something to be done after rendering the component or after a state change. The function you have passed(can be referred to as “effect”) will be remembered by React and call afterwards the performance of DOM updates is over. Using this, we can perform various calculations such as data fetching, setting up document title, manipulating DOM directly, etc, that don’t target the output value. The useEffect hook will run by default after the first render and also after each update of the component. React will guarantee that the DOM will be updated by the time when the effect has run by it."
+		},
+		{
+			"title": "Why do React Hooks make use of refs?",
+			"link": "https://www.youtube.com/embed/qv2YPOnDwvA",
+			"answer": "Earlier, refs were only limited to class components but now it can also be accessible in function components through the useRef Hook in React. The refs are used for: Managing focus, media playback, or text selection. Integrating with DOM libraries by third-party. Triggering the imperative animations"
+		},
+		{
+			"title": " What are Custom Hooks?",
+			"link": "",
+			"answer": "A Custom Hook is a function in Javascript whose name begins with ‘use’ and which calls other hooks. It is a part of React v16.8 hook update and permits you for reusing the stateful logic without any need for component hierarchy restructuring .In almost all of the cases, custom hooks are considered to be sufficient for replacing render props and HoCs (Higher-Order components) and reducing the amount of nesting required. Custom Hooks will allow you for avoiding multiple layers of abstraction or wrapper hell that might come along with Render Props and HoCs.The disadvantage of Custom Hooks is it cannot be used inside of the classes."
+		},
+		{
+			"title": " Name a few techniques to optimize React app performance.",
+			"link": "https://www.youtube.com/embed/o1wig429bHE",
+			"answer": "Using useMemo( ) -[] It is a React hook that is used for caching CPU-Expensive functions.[] Sometimes in a React app, a CPU-Expensive function gets called repeatedly due to re-renders of a component, which can lead to slow rendering.[]useMemo( ) hook can be used to cache such functions. By using useMemo( ), the CPU-Expensive function gets called only when it is needed. 2- Using React.PureComponent --It is a base component class that checks the state and props of a component to know whether the component should be updated. []Instead of using the simple React.Component, we can use React.PureComponent to reduce the re-renders of a component unnecessarily.3-LAZY LOADING -- It is a technique used to reduce the load time of a React app. Lazy loading helps reduce the risk of web app performances to a minimum."
+		},
+		{
+			"title": "What are Higher Order Components?",
+			"answer": "Simply put, Higher-Order Component(HOC) is a function that takes in a component and returns a new component. ",
+			"link": "https://www.youtube.com/embed/VtSzJn41LgM"
+		},
+		{
+			"title": "What are the lifecycle methods of React?",
+			"link": "https://www.youtube.com/embed/abjeWy4sZiU",
+			"answer": "componentDidMount(): This method will be called after the rendering of the component. Using this method, you can run statements that need the component to be already kept in the DOM. 2-shouldComponentUpdate(): The Boolean value will be returned by this method which will specify whether React should proceed further with the rendering or not. The default value for this method will be True.3--getSnapshotBeforeUpdate(): This method will provide access for the props as well as for the state before the update. It is possible to check the previously present value before the update, even after the update.4----componentDidUpdate(): This method will be called after the component has been updated in the DOM,5------componentWillUnmount(): This method will be called when the component removal from the DOM is about to happen"
+		},
+		{
+			"title": "What is an error boundary or error boundaries?",
+			"link": "https://www.youtube.com/embed/3Q7Kbzysi64",
+			"answer": "An error boundary is a concept introduced in version 16 of React. Error boundaries provide a way to find out the errors that occur in the render phase. Any component which uses one of the following lifecycle methods is considered an error boundary. Let's see the places where an error boundary can detect an error:"
+		},
+		{
+			"title": "What is Redux? Tell me the Flow of redux ,how we store and change the data?",
+			"link": "https://www.youtube.com/embed/JZQWKYjfZlQ",
+			"answer": "Redux is an open-source JavaScript library used to manage application state. React uses Redux for building the user interface. The Redux application is easy to test and can run in different environments showing consistent behavior. It was first introduced by Dan Abramov and Andrew Clark in 2015"
+		},
+		{
+			"title": "What is Context API & its flow?",
+			"link": "https://www.youtube.com/embed/EynAnD8nDfc",
+			"answer": "The React Context API is a way for a React app to effectively produce global variables that can be passed around. This is the alternative to (prop drilling) or moving props from grandparent to child to parent, and so on. Context is also touted as an easier, lighter approach to state management using Redux."
+		},
+		{
+			"title": "What is Reducer in React ? ",
+			"link": "https://www.youtube.com/embed/VdXGIEYZuCw",
+			"answer": "A reducer function is where you will put your state logic. It takes two arguments, the current state and the action object, and it returns the next state: function yourReducer(state, action) { // return next state for React to set."
 		}
 	]
 }
