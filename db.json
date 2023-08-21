@@ -4116,7 +4116,7 @@
 		  }
 		]
 	  },
-	  "js_quiz_list":[
+	  "jsquizlist":[
 		{
 		  "question": "What is the result of '2' + 2?",
 		  "options": ["4", "22", "NaN", "Error"],
