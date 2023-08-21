@@ -4023,5 +4023,98 @@
 			"link": "https://www.youtube.com/embed/VdXGIEYZuCw",
 			"answer": "A reducer function is where you will put your state logic. It takes two arguments, the current state and the action object, and it returns the next state: function yourReducer(state, action) { // return next state for React to set."
 		}
-	]
+	],
+	"uiMachineCoding":{
+		"easy": [
+		  {
+			"title": "Collapsible Content Panels",
+			"description": "Implement a set of collapsible content panels. Each panel can be expanded or collapsed by clicking on its header."
+		  },
+		  {
+			"title": "Infinite Scroll Component",
+			"description": "Build an infinite scroll component that loads more content as the user scrolls down."
+		  },
+		  {
+			"title": "Resizable Split Pane",
+			"description": "Design a resizable split pane layout where users can adjust the width or height of two adjacent content sections."
+		  },
+		  {
+			"title": "Sortable Table Component",
+			"description": "Implement a sortable table component that allows users to sort columns by clicking on headers."
+		  },
+		  {
+			"title": "Custom Dropdown Select",
+			"description": "Create a custom dropdown select component that allows users to select from a list of options."
+		  }
+		],
+		"medium": [
+		  {
+			"title": "Multi-Step Form Wizard",
+			"description": "Create a multi-step form wizard that guides users through a series of steps."
+		  },
+		  {
+			"title": "Virtualized List Component",
+			"description": "Build a virtualized list component that efficiently renders a large list of items with only the visible ones rendered on the screen."
+		  },
+		  {
+			"title": "Responsive Modal Gallery",
+			"description": "Design a responsive modal gallery that displays images in a lightbox when clicked."
+		  },
+		   {
+			"title": "Resizable Split Pane",
+          "description": "Design a resizable split pane layout for content sections."
+		},
+		{
+			"title": "Dynamic Form Validation",
+			"description": "Build a form with real-time validation feedback."
+		  },
+		  {
+			"title": "Multi-Step Form Wizard",
+			"description": "Create a multi-step form wizard to guide users through steps."
+		  },
+		  {
+			"title": "Scalable Progress Bar",
+			"description": "Build a progress bar component that scales smoothly based on the percentage of completion."
+		  },
+		  {
+			"title": "Complex Animation Sequences",
+			"description": "Implement a complex animation sequence, such as a dynamic loading animation or a character animation with various movements."
+		  }
+		],
+		"hard": [
+		  {
+			"title": "Drag-and-Drop Board",
+			"description": "Create a drag-and-drop board where users can move items between different columns."
+		  },
+		  {
+			"title": "Canvas-based Drawing App",
+			"description": "Develop a drawing app with brush tools and colors."
+		  },
+		  {
+			"title": "Data Visualization Component",
+			"description": "Implement a data visualization component, such as a bar chart or line chart, to display data in a visually appealing and interactive manner."
+		  },
+		  {
+			"title": "Interactive Data Visualization Dashboard",
+			"description": "Build an interactive dashboard that displays multiple data visualizations, such as charts, graphs, and maps."
+		  },
+		  {
+			"title": "Real-time Collaboration Whiteboard",
+			"description": "Design a real-time collaborative whiteboard where multiple users can draw, add shapes, and write simultaneously."
+		  },
+		  {
+			"title": "3D Model Viewer",
+			"description": "Create a 3D model viewer that allows users to load and interact with 3D models."
+		  },
+		  {
+			"title": "Interactive Game Interface",
+			"description": "Build an interactive game interface with components like a game board, score tracker, and player controls."
+		  },
+		  {
+			"title": "Voice-controlled User Interface",
+			"description": "Develop a user interface that responds to voice commands. Users should be able to perform actions using voice input."
+		  }
+		]
+	  }
+	  
 }
