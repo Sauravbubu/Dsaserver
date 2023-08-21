@@ -4115,6 +4115,376 @@
 			"description": "Develop a user interface that responds to voice commands. Users should be able to perform actions using voice input."
 		  }
 		]
-	  }
-	  
+	  },
+	  "js_quiz_list":[
+		{
+		  "question": "What is the result of '2' + 2?",
+		  "options": ["4", "22", "NaN", "Error"],
+		  "answer": 1
+		},
+		{
+		  "question": "What is the output of typeof typeof 1?",
+		  "options": ["number", "string", "object", "undefined"],
+		  "answer": 1
+		},
+		{
+		  "question": "What will the following code output? console.log(3 + 2 + '7');",
+		  "options": ["57", "12", "37", "NaN"],
+		  "answer": 0
+		},
+		{
+		  "question": "What is the result of 1 + -'1'?",
+		  "options": ["0", "-1", "1", "NaN"],
+		  "answer": 0
+		},
+	
+		{
+		  "question": "What is the output of 0.1 + 0.2 === 0.3?",
+		  "options": ["true", "false"],
+		  "answer": 1
+		},
+		{
+			"question": "What will the following code output? console.log(1 - '1' + '2');",
+			"options": ["0", "12", "112", "NaN"],
+			"answer": 2
+		  },
+		  {
+			"question": "What is the value of '2' + 3 * 4?",
+			"options": ["20", "14", "2", "26"],
+			"answer": 1
+		  },
+		  {
+			"question": "What is the result of '5' - 3?",
+			"options": ["2", "8", "3", "52"],
+			"answer": 0
+		  },
+		  {
+			"question": "What will the following code output? console.log(true + false);",
+			"options": ["1", "true", "false", "NaN"],
+			"answer": 0
+		  },
+		  {
+			"question": "What is the output of 'Hello' - 'World'?",
+			"options": ["NaN", "HelloWorld", "Error", "NaNHelloWorld"],
+			"answer": 0
+		  },
+		  {
+			"question": "What does the following expression evaluate to? [1, 2] == [1, 2]",
+			"options": ["true", "false", "NaN", "Error"],
+			"answer": 1
+		  },
+		  {
+			"question": "What is the output of 'abc'.length;",
+			"options": ["3", "4", "NaN", "Error"],
+			"answer": 0
+		  },
+		  {
+			"question": "What is the result of '5' + 3 + 2?",
+			"options": ["10", "532", "8", "Error"],
+			"answer": 1
+		  },
+		  {
+			"question": "What will the following code output? console.log('1' - -'1');",
+			"options": ["2", "-1", "11", "Error"],
+			"answer": 0
+		  },
+		  {
+			"question": "What is the value of null + 1?",
+			"options": ["1", "null1", "null", "Error"],
+			"answer": 1
+		  },
+		  {
+			"question": "What is the difference between 'null' and 'undefined' in JavaScript?",
+			"options": [
+			  "'null' represents the intentional absence of any object value.",
+			  "'undefined' represents a variable that has been declared but has not been assigned a value.",
+			  "'null' and 'undefined' are interchangeable terms in JavaScript.",
+			  "There is no difference between 'null' and 'undefined' in JavaScript."
+			],
+			"answer": 0
+		  },
+		  {
+			"question": "What is the Event Loop in JavaScript?",
+			"options": [
+			  "The Event Loop is a part of the JavaScript engine that handles memory management.",
+			  "The Event Loop is a mechanism that allows JavaScript to perform asynchronous operations.",
+			  "The Event Loop is used to control the flow of execution in a loop.",
+			  "The Event Loop is a design pattern used to create event-driven applications."
+			],
+			"answer": 1
+		  },
+		  {
+			"question": "What is a closure in JavaScript?",
+			"options": [
+			  "A closure is a built-in function in JavaScript that helps manage memory.",
+			  "A closure is a function that has access to its own local variables, as well as variables in its containing function.",
+			  "A closure is a data structure used for storing multiple values.",
+			  "A closure is a type of loop used for iterating over arrays and objects."
+			],
+			"answer": 1
+		  },
+		  {
+			"question": "What is 'hoisting' in JavaScript?",
+			"options": [
+			  "'Hoisting' is a technique used to create animations in JavaScript.",
+			  "'Hoisting' is the process of moving all variable and function declarations to the top of the scope before execution.",
+			  "'Hoisting' is a feature that automatically converts data types in JavaScript.",
+			  "'Hoisting' is a security mechanism used to prevent code injection in JavaScript."
+			],
+			"answer": 1
+		  },
+		  {
+			"question": "What is the purpose of the 'this' keyword in JavaScript?",
+			"options": [
+			  "The 'this' keyword is used to define a new variable.",
+			  "The 'this' keyword refers to the object on which a method is being called.",
+			  "The 'this' keyword is used to declare variables within a function.",
+			  "The 'this' keyword is used to create new instances of objects."
+			],
+			"answer": 1
+		  },
+		  {
+			"question": "What is the difference between 'call', 'apply', and 'bind' methods?",
+			"options": [
+			  "'call' is used to invoke a function with a specified 'this' value and arguments provided individually.",
+			  "'apply' is used to invoke a function with a specified 'this' value and arguments provided as an array.",
+			  "'bind' is used to create a new function with a specified 'this' value and arguments provided individually.",
+			  "There is no difference between 'call', 'apply', and 'bind' methods in JavaScript."
+			],
+			"answer": 0
+		  },
+		  {
+			"question": "Explain the concept of a higher-order function in JavaScript.",
+			"options": [
+			  "A higher-order function is a function that takes one or more functions as arguments or returns a function as its result.",
+			  "A higher-order function is a function that can only be invoked within another function.",
+			  "A higher-order function is a function that has access to variables from the global scope.",
+			  "A higher-order function is a function that is defined within another function's scope."
+			],
+			"answer": 0
+		  },
+		  {
+			"question": "What is the purpose of the 'strict mode' in JavaScript?",
+			"options": [
+			  "The 'strict mode' is used to enable dynamic typing in JavaScript.",
+			  "The 'strict mode' is used to prevent JavaScript code from running.",
+			  "The 'strict mode' is used to enforce stricter parsing and error handling in JavaScript.",
+			  "The 'strict mode' is used to disable asynchronous operations in JavaScript."
+			],
+			"answer": 2
+		  },
+		  {
+			"question": "What is the difference between '=='' and '===' operators in JavaScript?",
+			"options": [
+			  "'==' is used for strict equality comparison, while '===' is used for loose equality comparison.",
+			  "'===' is used for strict equality comparison, while '==' is used for loose equality comparison.",
+			  "'==' and '===' operators are used interchangeably in JavaScript.",
+			  "There is no difference between '==' and '===' operators in JavaScript."
+			],
+			"answer": 1
+		  },
+		  {
+			"question": "What is event delegation in JavaScript?",
+			"options": [
+			  "Event delegation is a technique used to delegate events to external libraries.",
+			  "Event delegation is a method of passing events from child elements to parent elements in the DOM.",
+			  "Event delegation is a way to create custom event listeners in JavaScript.",
+			  "Event delegation is a technique used to handle memory leaks in JavaScript."
+			],
+			"answer": 1
+		  },
+		  {
+			"question": "What is the purpose of the 'use strict' directive?",
+			"options": [
+			  "The 'use strict' directive is used to enable debugging mode in JavaScript.",
+			  "The 'use strict' directive is used to enforce stricter parsing and error handling in JavaScript.",
+			  "The 'use strict' directive is used to disable all asynchronous operations in JavaScript.",
+			  "The 'use strict' directive is used to enable dynamic typing in JavaScript."
+			],
+			"answer": 1
+		  },
+		  {
+			"question": "What is the difference between a shallow copy and a deep copy in JavaScript?",
+			"options": [
+			  "A shallow copy creates a new object, but the nested objects are still referenced from the original object. A deep copy creates a completely independent copy of the original object.",
+			  "A shallow copy creates a completely independent copy of the original object. A deep copy creates a new object, but the nested objects are still referenced from the original object.",
+			  "A shallow copy only copies the top-level properties of an object. A deep copy copies all properties and nested properties of an object.",
+			  "A shallow copy creates a new object, but the nested objects are only partially copied. A deep copy creates a completely independent copy of the original object."
+			],
+			"answer": 0
+		  },
+		  {
+			"question": "Explain the concept of Event Bubbling and Event Capturing in JavaScript.",
+			"options": [
+			  "Event Bubbling refers to the process of events propagating from the target element up to the root of the DOM.",
+			  "Event Capturing refers to the process of events propagating from the root of the DOM down to the target element.",
+			  "Event Bubbling and Event Capturing are the same concepts in JavaScript.",
+			  "Event Bubbling and Event Capturing are only relevant in React applications."
+			],
+			"answer": 0
+		  },
+		  {
+			"question": "What is a callback function in JavaScript and why is it used?",
+			"options": [
+			  "A callback function is a function passed as an argument to another function and is executed after the completion of that function.",
+			  "A callback function is a function that is used to pause the execution of other functions until it is invoked.",
+			  "A callback function is a function that handles asynchronous operations in parallel with other functions.",
+			  "A callback function is a function that is used to prevent memory leaks in JavaScript applications."
+			],
+			"answer": 0
+		  },
+		  {
+			"question": "What is the purpose of the 'async' and 'await' keywords in JavaScript?",
+			"options": [
+			  "The 'async' keyword is used to define asynchronous functions, while 'await' is used to pause the execution of an asynchronous function until a promise is resolved.",
+			  "The 'await' keyword is used to define asynchronous functions, while 'async' is used to pause the execution of an asynchronous function until a promise is resolved.",
+			  "The 'async' keyword is used to make synchronous functions, while 'await' is used to resume asynchronous execution.",
+			  "The 'await' keyword is used to make synchronous functions, while 'async' is used to resume asynchronous execution."
+			],
+			"answer": 0
+		  },
+		  {
+			"question": "Explain the concept of Cross-Origin Resource Sharing (CORS) and how it works.",
+			"options": [
+			  "CORS is a security mechanism that allows servers to define which origins are allowed to access their resources.",
+			  "CORS is a technique to make API calls from any domain without restrictions.",
+			  "CORS is a method to prevent any domain from accessing server resources.",
+			  "CORS is a way to enable websites to access resources from other domains without any restrictions."
+			],
+			"answer": 0
+		  },
+		  {
+			"question": "What is the Virtual DOM in React and how does it improve performance?",
+			"options": [
+			  "The Virtual DOM is a lightweight copy of the actual DOM, and React uses it to efficiently update the actual DOM when there are changes.",
+			  "The Virtual DOM is the actual DOM rendered on the server before being sent to the client.",
+			  "The Virtual DOM is a separate thread that handles DOM updates independently of the main thread.",
+			  "The Virtual DOM is a concept used in CSS to organize and structure styles for better performance."
+			],
+			"answer": 0
+		  },
+		  {
+			"question": "Explain the difference between 'state' and 'props' in React.",
+			"options": [
+			  "'State' is used to manage internal data within a component, while 'props' are used to pass data from parent to child components.",
+			  "'Props' are used to manage internal data within a component, while 'state' is used to pass data from parent to child components.",
+			  "'State' is used to pass data from parent to child components, while 'props' are used to manage internal data within a component.",
+			  "'Props' are used to pass data from parent to child components, while 'state' is used to manage internal data within a component."
+			],
+			"answer": 0
+		  },
+		  {
+			"question": "What is CSS-in-JS? How does it work?",
+			"options": [
+			  "CSS-in-JS is an approach where CSS is written directly in JavaScript files.",
+			  "CSS-in-JS is a technique to load CSS files asynchronously in web applications.",
+			  "CSS-in-JS is a method to convert JavaScript code into CSS code.",
+			  "CSS-in-JS is a library to generate random CSS styles dynamically in web applications."
+			],
+			"answer": 0
+		  },
+		  {
+			"question": "Explain the concept of responsive design and how it's implemented.",
+			"options": [
+			  "Responsive design is an approach to building websites that adapt to different screen sizes and devices.",
+			  "Responsive design is a technique to make websites load faster on mobile devices.",
+			  "Responsive design is a method to create fixed layouts that do not change based on screen size.",
+			  "Responsive design is a library to automatically adjust font sizes based on the user's device."
+			],
+			"answer": 0
+		  },
+		  {
+			"question": "What is the purpose of using CSS preprocessors like Sass or LESS?",
+			"options": [
+			  "CSS preprocessors help improve the maintainability and efficiency of CSS code by providing features like variables, nesting, and mixins.",
+			  "CSS preprocessors are used to convert CSS code into JavaScript code.",
+			  "CSS preprocessors are tools to simplify the process of writing HTML code.",
+			  "CSS preprocessors are libraries to enhance the rendering performance of web applications."
+			],
+			"answer": 0
+		  },
+		  {
+			"question": "What are Web Accessibility (A11y) standards and why are they important?",
+			"options": [
+			  "Web Accessibility standards ensure that websites and applications are usable by people with disabilities.",
+			  "Web Accessibility standards are guidelines for improving website performance.",
+			  "Web Accessibility standards are recommendations for optimizing search engine rankings.",
+			  "Web Accessibility standards are rules for securing web applications from cyberattacks."
+			],
+			"answer": 0
+		  },
+		  {
+			"question": "What is the difference between null and undefined in JavaScript?",
+			"options": [
+			  "Undefined means a variable has been declared but has not yet been assigned a value, while null is an assignment value that represents no value or no object.",
+			  "Undefined represents a value that is intentionally set to indicate an empty state, while null indicates that the variable contains a reference to an undefined object.",
+			  "Null is used to represent a variable that has been declared but has not yet been assigned a value, while undefined indicates that a variable holds an empty value.",
+			  "Null represents a value that is intentionally set to indicate an empty state, while undefined is used to indicate a missing or broken reference."
+			],
+			"answer": 0
+		  },
+		  {
+			"question": "What is a closure in JavaScript and why is it useful?",
+			"options": [
+			  "A closure is a function that has access to the variables from its own scope as well as the variables from the scope in which it was created.",
+			  "A closure is a function that can only access variables from its own scope and cannot access variables from outer scopes.",
+			  "A closure is a function that has access to the variables from its own scope, but not to variables from outer scopes.",
+			  "A closure is a function that is defined within another function and cannot access any variables outside its own scope."
+			],
+			"answer": 0
+		  },
+		  {
+			"question": "What is event delegation in JavaScript and how does it work?",
+			"options": [
+			  "Event delegation is a technique where a single event handler is attached to a parent element, and events are processed based on the target element that triggered the event.",
+			  "Event delegation is a method to prevent certain events from triggering on specific elements.",
+			  "Event delegation is a way to group multiple event handlers together for better performance.",
+			  "Event delegation is a technique to attach events directly to child elements to avoid bubbling."
+			],
+			"answer": 0
+		  },
+		  {
+			"question": "What is an Immediately Invoked Function Expression (IIFE) and why is it used?",
+			"options": [
+			  "An IIFE is a JavaScript function that is executed immediately after it is defined and is used to create a private scope for variables.",
+			  "An IIFE is a function that is defined to be invoked after a specific event occurs.",
+			  "An IIFE is a function that is invoked using the 'this' keyword within an object's scope.",
+			  "An IIFE is a function that executes only when it is explicitly called using its name."
+			],
+			"answer": 0
+		  },
+		  {
+			"question": "What is the purpose of the 'map' function in JavaScript and how does it work?",
+			"options": [
+			  "The 'map' function is used to create a new array by applying a given function to each element of an existing array.",
+			  "The 'map' function is used to combine multiple arrays into a single array.",
+			  "The 'map' function is used to remove elements from an array that satisfy a specific condition.",
+			  "The 'map' function is used to sort the elements of an array in ascending order."
+			],
+			"answer": 0
+		  },
+		  {
+			"question": "What is the purpose of the 'reduce' function in JavaScript?",
+			"options": [
+			  "The 'reduce' function is used to iterate over an array and accumulate a single value by applying a function to each element.",
+			  "The 'reduce' function is used to create a new array by combining multiple arrays.",
+			  "The 'reduce' function is used to remove elements from an array that satisfy a specific condition.",
+			  "The 'reduce' function is used to sort the elements of an array in descending order."
+			],
+			"answer": 0
+		  },
+		  {
+			"question": "Explain the concept of hoisting in JavaScript.",
+			"options": [
+			  "Hoisting is a JavaScript mechanism where variable and function declarations are moved to the top of their containing scope during compilation.",
+			  "Hoisting is a technique to optimize the performance of asynchronous code execution.",
+			  "Hoisting is a way to prevent variables and functions from being accessed outside their defined scope.",
+			  "Hoisting is a feature that automatically organizes and sorts variables and functions in the order they are used in the code."
+			],
+			"answer": 0
+		  }
+		
+		
+	  ]
+	    
 }
