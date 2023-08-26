@@ -4485,6 +4485,119 @@
 		  }
 		
 		
+	  ],
+	  "java-backend":[
+		{
+		  "question": "What is the purpose of the 'final' keyword in Java?",
+		  "options": [
+			"To declare a constant variable.",
+			"To indicate a class cannot be extended.",
+			"To prevent variable modification.",
+			"To define a static method."
+		  ],
+		  "answer": 1
+		},
+		{
+		  "question": "How does garbage collection work in Java?",
+		  "options": [
+			"It manually deallocates memory for unused objects.",
+			"It deallocates memory as soon as an object is out of scope.",
+			"It automatically reclaims memory occupied by unreachable objects.",
+			"It only works for primitive data types."
+		  ],
+		  "answer": 2
+		},
+		{
+		  "question": "What is the purpose of the 'transient' keyword in Java?",
+		  "options": [
+			"To indicate that a variable is constant.",
+			"To specify that a variable is thread-safe.",
+			"To prevent a variable from being serialized.",
+			"To declare a variable that can't be accessed directly."
+		  ],
+		  "answer": 2
+		},
+		{
+			"question": "What is the difference between an abstract class and an interface in Java?",
+			"options": [
+			  "An abstract class can have both abstract and concrete methods, while an interface can only have abstract methods.",
+			  "An abstract class can be instantiated, while an interface cannot.",
+			  "An abstract class can extend multiple classes, while an interface can only extend one class.",
+			  "An abstract class cannot have fields, while an interface can have fields."
+			],
+			"answer": 0
+		  },
+		  {
+			"question": "Explain the concept of Java Reflection.",
+			"options": [
+			  "It's a mechanism to create new objects.",
+			  "It allows dynamic method invocation and inspection of classes, interfaces, fields, and methods.",
+			  "It's used to control the access level of classes and members.",
+			  "It's a feature to ensure type safety."
+			],
+			"answer": 1
+		  },
+		  {
+			"question": "What are Java Streams, and how are they different from collections?",
+			"options": [
+			  "Java Streams are used for network communication, while collections are used to store data.",
+			  "Java Streams are used to work with sequences of elements and support functional-style operations, while collections are used to store and manipulate data.",
+			  "Java Streams are used for multi-threading, while collections are used for single-threaded applications.",
+			  "Java Streams are used to work with files, while collections are used to work with in-memory data."
+			],
+			"answer": 1
+		  },
+		  {
+			"question": "What is the purpose of the 'volatile' keyword in Java?",
+			"options": [
+			  "To indicate that a variable's value will never change.",
+			  "To ensure that a variable is thread-safe and can be accessed by multiple threads.",
+			  "To prevent a variable from being modified by any code.",
+			  "To optimize the performance of a variable."
+			],
+			"answer": 1
+		  },
+		  {
+			"question": "Explain the difference between 'synchronized' and 'volatile' in Java.",
+			"options": [
+			  "'synchronized' ensures exclusive access to a block of code, while 'volatile' ensures visibility of changes across threads.",
+			  "'synchronized' is used to declare constants, while 'volatile' is used for dynamic variables.",
+			  "'synchronized' is used for type casting, while 'volatile' is used for error handling.",
+			  "'synchronized' is used for memory allocation, while 'volatile' is used for garbage collection."
+			],
+			"answer": 0
+		  },
+		  {
+			"question": "What is the 'transient' keyword used for in Java?",
+			"options": [
+			  "To declare a variable that cannot be modified.",
+			  "To declare a variable that is not serialized during object serialization.",
+			  "To declare a variable that is accessible from any class.",
+			  "To declare a variable that is automatically initialized."
+			],
+			"answer": 1
+		  },
+		  {
+			"question": "Explain the concept of Java Generics and how they improve type safety.",
+			"options": [
+			  "Java Generics are used for creating generic data structures, while type safety is improved through code optimization.",
+			  "Java Generics allow methods to work on different data types, while type safety is improved by preventing type-related errors at compile time.",
+			  "Java Generics are used for handling exceptions, while type safety is improved by allowing runtime type checks.",
+			  "Java Generics allow dynamic type conversion, while type safety is improved by increasing the visibility of variables."
+			],
+			"answer": 1
+		  },
+		  {
+			"question": "What are the benefits and drawbacks of using the 'finalize' method in Java?",
+			"options": [
+			  "Benefits: Improved memory management. Drawbacks: Uncertain timing of execution and performance overhead.",
+			  "Benefits: Enhanced code readability. Drawbacks: Limited usage scenarios.",
+			  "Benefits: Increased execution speed. Drawbacks: Potential memory leaks.",
+			  "Benefits: Simplified exception handling. Drawbacks: Decreased runtime efficiency."
+			],
+			"answer": 0
+		  }
 	  ]
+	  
 	    
 }
